@@ -1,0 +1,9 @@
+<Context >
+
+    <Resource name="jdbc/BookDB" auth="Container"
+              type="javax.sql.DataSource"
+              description="Baza danych ksiazek"
+              driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
+              url="jdbc:derby:BookDB;create=true"
+              maxActive="20" />
+</Context>

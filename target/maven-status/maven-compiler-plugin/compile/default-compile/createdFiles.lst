@@ -1,0 +1,4 @@
+app\model\BookDAO.class
+app\servlet\AllBooksServlet.class
+app\servlet\BookServlet.class
+app\model\Book.class
